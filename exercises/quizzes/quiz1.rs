@@ -16,6 +16,13 @@ fn main() {
     // You can optionally experiment here.
 }
 
+fn calculate_price_of_apples(price: i32) -> i32 {
+    if price <= 40 {
+        return 2 * price;
+    }
+    price
+}
+
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
